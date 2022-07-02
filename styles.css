@@ -1,1 +1,78 @@
 /* Write your CSS here! */
+
+body {
+    padding-inline-start: 5%;
+    padding-inline-end: 5%;
+    margin: 8px;
+    display: block;
+    background-color: wheat;
+
+}
+
+
+
+@media screen and (min-width: 996px) {
+    body {
+        padding-inline-start: 25%;
+        padding-inline-end: 25%;
+        background-color: #f7f7f7;
+        background-image: url("images/Ponds.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed; 
+        margin: 8px;
+        display: block;
+    } div {
+        border: 1px solid black;
+        background-color: white;
+    }
+  }
+
+main { 
+    font-size: 1em;
+    color: black;
+}
+
+#mainHeading {
+    color: red;
+    font-size: 2em;
+}
+
+header h1 {
+	text-align: center;
+}
+
+section {
+	margin: 1.875em 0;
+}
+
+section:first-child {
+	margin-top: 0;
+}
+
+section:last-child {
+	margin-bottom: 0;
+}
+
+.funParagraph {
+    color: green;
+    font-size: 2em;
+}
+
+figcaption {
+    font-style: italic;
+}
+
+footer {
+    text-align: center;
+}
+
+nav ul {
+	text-align: center;
+	padding: 0;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 1em;
+	font-size: 0.75em;
+}
